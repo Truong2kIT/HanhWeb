@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="h.css">
+    <title>buon vch</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(7, 7, 7);
+            min-height: 100vh;
+            overflow: hidden;
+           
+            margin: 100px auto;
+        }
+
+        h1 {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 5em;
+            color: #222;
+            padding-top: 50%;
+        }
+
+        h1::before {
+            content: attr(data-text);
+            position: absolute;
+            color: #fff;
+            width: 350px;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 4px solid #fff;
+            animation: animaText 8s linear infinite;
+        }
+
+        @keyframes animaText {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+<h1 data-text="&nbsp DELL CÓ NYEU, NÊN DELL CÓ TYM ĐÂU &nbsp">
+
+</h1>
+<section>
+    <div class="cube">
+        <div class="top"></div>
+        <div>
+            <span style="--1:0"></span>
+        </div>
+    </div>
+</section>
+</body>
+
+</html>
+<img src="trollyou-troll-dance.gif" alt="hanhhihi">
